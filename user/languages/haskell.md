@@ -23,16 +23,16 @@ defaults that use `cabal`. It is possible to override them to use `make` or any 
 You can specify one or more GHC versions:
 
 ```
-ghc: 7.4
+ghc: "7.8"
 ```
 
 Multiple versions:
 
 ```
 ghc:
-  - 7.8
-  - 7.6
-  - 7.4
+  - "7.8"
+  - "7.6"
+  - "7.4"
 ```
 
 It is recommended that you only use the major and minor versions to specify the version to use, as we may update the patchlevel releases at any time.
